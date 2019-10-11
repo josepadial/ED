@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classPila" kind="class"><name>Pila</name>
+    <member refid="classPila_1a204f19c4c90cc4228c229d966bac319b" kind="variable"><name>lista</name></member>
+    <member refid="classPila_1a7ff5138a6888873379192365d7acbde4" kind="function"><name>Pila</name></member>
+    <member refid="classPila_1ab1b102e3b0d92cb878bb051f8a6f1417" kind="function"><name>Pila</name></member>
+    <member refid="classPila_1a5bc38b4a06fdc0c1abc8736ebc5ba839" kind="function"><name>~Pila</name></member>
+    <member refid="classPila_1a149aae11a3eba4dfa939925eb5cdb0eb" kind="function"><name>operator=</name></member>
+    <member refid="classPila_1a326618921557d69842196303b9832b61" kind="function"><name>vacia</name></member>
+    <member refid="classPila_1aa6ef037afb60c5791e2d851e8e67927e" kind="function"><name>top</name></member>
+    <member refid="classPila_1a20477178a918c2da17c4eafbe225f7c5" kind="function"><name>top</name></member>
+    <member refid="classPila_1a10f5bb69338e4b4231e31eaff1e97562" kind="function"><name>poner</name></member>
+    <member refid="classPila_1a7eb7aca18dffbc1d570195de1e446054" kind="function"><name>quitar</name></member>
+    <member refid="classPila_1af74b3a776360ae6f1033cf1d714404d3" kind="function"><name>limpiar</name></member>
+    <member refid="classPila_1a1268523f53fe982a9872a6b42c515d01" kind="function"><name>num_elementos</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="pila_8cpp" kind="file"><name>pila.cpp</name>
+  </compound>
+  <compound refid="pila_8h" kind="file"><name>pila.h</name>
+  </compound>
+  <compound refid="usopila_8cpp" kind="file"><name>usopila.cpp</name>
+    <member refid="usopila_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

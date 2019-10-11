@@ -1,0 +1,150 @@
+\section{Referencia de la plantilla de la Clase Pila$<$ T $>$}
+\label{classPila}\index{Pila$<$ T $>$@{Pila$<$ T $>$}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classPila_a7ff5138a6888873379192365d7acbde4}} 
+\textbf{ Pila} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+\textbf{ Pila} (const \textbf{ Pila}$<$ T $>$ \&original)
+\begin{DoxyCompactList}\small\item\em Constructor de copia. \end{DoxyCompactList}\item 
+\mbox{\label{classPila_a5bc38b4a06fdc0c1abc8736ebc5ba839}} 
+\textbf{ $\sim$\+Pila} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\textbf{ Pila} \& \textbf{ operator=} (const \textbf{ Pila}$<$ T $>$ \&otra)
+\begin{DoxyCompactList}\small\item\em Operador de asignación. \end{DoxyCompactList}\item 
+bool \textbf{ vacia} () const
+\begin{DoxyCompactList}\small\item\em Comprueba si la pila está vacía. \end{DoxyCompactList}\item 
+T \& \textbf{ top} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el elemento del tope de la pila. \end{DoxyCompactList}\item 
+const T \& \textbf{ top} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el elemento del tope de una pila constante. \end{DoxyCompactList}\item 
+void \textbf{ poner} (const T \&elemento)
+\begin{DoxyCompactList}\small\item\em Añade un elemento al final de la pila. \end{DoxyCompactList}\item 
+\mbox{\label{classPila_a7eb7aca18dffbc1d570195de1e446054}} 
+void \textbf{ quitar} ()
+\begin{DoxyCompactList}\small\item\em Quita el elemento del tope de la pila. \end{DoxyCompactList}\item 
+\mbox{\label{classPila_af74b3a776360ae6f1033cf1d714404d3}} 
+void \textbf{ limpiar} ()
+\begin{DoxyCompactList}\small\item\em Quita todos los elementos de la pila. \end{DoxyCompactList}\item 
+int \textbf{ num\+\_\+elementos} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el número de elementos de la pila. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\label{classPila_ab1b102e3b0d92cb878bb051f8a6f1417}} 
+\index{Pila@{Pila}!Pila@{Pila}}
+\index{Pila@{Pila}!Pila@{Pila}}
+\subsubsection{Pila()}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\textbf{ Pila}$<$ T $>$\+::\textbf{ Pila} (\begin{DoxyParamCaption}\item[{const \textbf{ Pila}$<$ T $>$ \&}]{original }\end{DoxyParamCaption})}
+
+
+
+Constructor de copia. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em original} & \doxyref{Pila}{p.}{classPila} a copiar. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\label{classPila_a1268523f53fe982a9872a6b42c515d01}} 
+\index{Pila@{Pila}!num\+\_\+elementos@{num\+\_\+elementos}}
+\index{num\+\_\+elementos@{num\+\_\+elementos}!Pila@{Pila}}
+\subsubsection{num\+\_\+elementos()}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \textbf{ Pila}$<$ T $>$\+::num\+\_\+elementos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el número de elementos de la pila. 
+
+\begin{DoxyReturn}{Devuelve}
+Entero con el número de elementos de la pila. 
+\end{DoxyReturn}
+\mbox{\label{classPila_a149aae11a3eba4dfa939925eb5cdb0eb}} 
+\index{Pila@{Pila}!operator=@{operator=}}
+\index{operator=@{operator=}!Pila@{Pila}}
+\subsubsection{operator=()}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\textbf{ Pila}$<$ T $>$ \& \textbf{ Pila}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ Pila}$<$ T $>$ \&}]{otra }\end{DoxyParamCaption})}
+
+
+
+Operador de asignación. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em otra} & \doxyref{Pila}{p.}{classPila} a asignar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Referencia a la cola modificada. 
+\end{DoxyReturn}
+\mbox{\label{classPila_a10f5bb69338e4b4231e31eaff1e97562}} 
+\index{Pila@{Pila}!poner@{poner}}
+\index{poner@{poner}!Pila@{Pila}}
+\subsubsection{poner()}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \textbf{ Pila}$<$ T $>$\+::poner (\begin{DoxyParamCaption}\item[{const T \&}]{elemento }\end{DoxyParamCaption})}
+
+
+
+Añade un elemento al final de la pila. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em elem} & Elemento que se va a añadir. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classPila_aa6ef037afb60c5791e2d851e8e67927e}} 
+\index{Pila@{Pila}!top@{top}}
+\index{top@{top}!Pila@{Pila}}
+\subsubsection{top()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \textbf{ Pila}$<$ T $>$\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devuelve el elemento del tope de la pila. 
+
+\begin{DoxyReturn}{Devuelve}
+Referencia al elemento del tope de la pila. 
+\end{DoxyReturn}
+\mbox{\label{classPila_a20477178a918c2da17c4eafbe225f7c5}} 
+\index{Pila@{Pila}!top@{top}}
+\index{top@{top}!Pila@{Pila}}
+\subsubsection{top()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \textbf{ Pila}$<$ T $>$\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el elemento del tope de una pila constante. 
+
+\begin{DoxyReturn}{Devuelve}
+Referencia constante al elemento del tope de la pila. 
+\end{DoxyReturn}
+\mbox{\label{classPila_a326618921557d69842196303b9832b61}} 
+\index{Pila@{Pila}!vacia@{vacia}}
+\index{vacia@{vacia}!Pila@{Pila}}
+\subsubsection{vacia()}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \textbf{ Pila}$<$ T $>$\+::vacia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Comprueba si la pila está vacía. 
+
+\begin{DoxyReturn}{Devuelve}
+Booleano indicador de si la pila está vacía. 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ pila.\+h}\item 
+\textbf{ pila.\+cpp}\end{DoxyCompactItemize}

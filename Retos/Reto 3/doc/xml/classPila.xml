@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classPila" kind="class" language="C++" prot="public">
+    <compoundname>Pila</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPila_1a204f19c4c90cc4228c229d966bac319b" prot="private" static="no" mutable="no">
+        <type>list&lt; T &gt;</type>
+        <definition>list&lt;T&gt; Pila&lt; T &gt;::lista</definition>
+        <argsstring></argsstring>
+        <name>lista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="21" column="1" bodyfile="pila.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPila_1a7ff5138a6888873379192365d7acbde4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pila&lt; T &gt;::Pila</definition>
+        <argsstring>()</argsstring>
+        <name>Pila</name>
+        <briefdescription>
+<para>Constructor por defecto. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="26" column="1" bodyfile="pila.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1ab1b102e3b0d92cb878bb051f8a6f1417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pila&lt; T &gt;::Pila</definition>
+        <argsstring>(const Pila&lt; T &gt; &amp;original)</argsstring>
+        <name>Pila</name>
+        <param>
+          <type>const <ref refid="classPila" kindref="compound">Pila</ref>&lt; T &gt; &amp;</type>
+          <declname>original</declname>
+        </param>
+        <briefdescription>
+<para>Constructor de copia. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>original</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classPila" kindref="compound">Pila</ref> a copiar. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="32" column="1" bodyfile="pila.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a5bc38b4a06fdc0c1abc8736ebc5ba839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pila&lt; T &gt;::~Pila</definition>
+        <argsstring>()</argsstring>
+        <name>~Pila</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="37" column="1" bodyfile="pila.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a149aae11a3eba4dfa939925eb5cdb0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classPila" kindref="compound">Pila</ref> &amp;</type>
+        <definition>Pila&lt; T &gt; &amp; Pila&lt; T &gt;::operator=</definition>
+        <argsstring>(const Pila&lt; T &gt; &amp;otra)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classPila" kindref="compound">Pila</ref>&lt; T &gt; &amp;</type>
+          <declname>otra</declname>
+        </param>
+        <briefdescription>
+<para>Operador de asignación. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>otra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classPila" kindref="compound">Pila</ref> a asignar. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Referencia a la cola modificada. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="44" column="1" bodyfile="pila.cpp" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a326618921557d69842196303b9832b61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pila&lt; T &gt;::vacia</definition>
+        <argsstring>() const</argsstring>
+        <name>vacia</name>
+        <briefdescription>
+<para>Comprueba si la pila está vacía. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Booleano indicador de si la pila está vacía. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="50" column="1" bodyfile="pila.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1aa6ef037afb60c5791e2d851e8e67927e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; Pila&lt; T &gt;::top</definition>
+        <argsstring>()</argsstring>
+        <name>top</name>
+        <briefdescription>
+<para>Devuelve el elemento del tope de la pila. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Referencia al elemento del tope de la pila. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="56" column="1" bodyfile="pila.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a20477178a918c2da17c4eafbe225f7c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; Pila&lt; T &gt;::top</definition>
+        <argsstring>() const</argsstring>
+        <name>top</name>
+        <briefdescription>
+<para>Devuelve el elemento del tope de una pila constante. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Referencia constante al elemento del tope de la pila. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="62" column="1" bodyfile="pila.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a10f5bb69338e4b4231e31eaff1e97562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pila&lt; T &gt;::poner</definition>
+        <argsstring>(const T &amp;elemento)</argsstring>
+        <name>poner</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>elemento</declname>
+        </param>
+        <briefdescription>
+<para>Añade un elemento al final de la pila. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento que se va a añadir. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="68" column="1" bodyfile="pila.cpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a7eb7aca18dffbc1d570195de1e446054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pila&lt; T &gt;::quitar</definition>
+        <argsstring>()</argsstring>
+        <name>quitar</name>
+        <briefdescription>
+<para>Quita el elemento del tope de la pila. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="73" column="1" bodyfile="pila.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1af74b3a776360ae6f1033cf1d714404d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pila&lt; T &gt;::limpiar</definition>
+        <argsstring>()</argsstring>
+        <name>limpiar</name>
+        <briefdescription>
+<para>Quita todos los elementos de la pila. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="78" column="1" bodyfile="pila.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classPila_1a1268523f53fe982a9872a6b42c515d01" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pila&lt; T &gt;::num_elementos</definition>
+        <argsstring>() const</argsstring>
+        <name>num_elementos</name>
+        <briefdescription>
+<para>Devuelve el número de elementos de la pila. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Entero con el número de elementos de la pila. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pila.h" line="84" column="1" bodyfile="pila.cpp" bodystart="67" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="pila.h" line="19" column="1" bodyfile="pila.h" bodystart="19" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classPila_1af74b3a776360ae6f1033cf1d714404d3" prot="public" virt="non-virtual"><scope>Pila</scope><name>limpiar</name></member>
+      <member refid="classPila_1a204f19c4c90cc4228c229d966bac319b" prot="private" virt="non-virtual"><scope>Pila</scope><name>lista</name></member>
+      <member refid="classPila_1a1268523f53fe982a9872a6b42c515d01" prot="public" virt="non-virtual"><scope>Pila</scope><name>num_elementos</name></member>
+      <member refid="classPila_1a149aae11a3eba4dfa939925eb5cdb0eb" prot="public" virt="non-virtual"><scope>Pila</scope><name>operator=</name></member>
+      <member refid="classPila_1a7ff5138a6888873379192365d7acbde4" prot="public" virt="non-virtual"><scope>Pila</scope><name>Pila</name></member>
+      <member refid="classPila_1ab1b102e3b0d92cb878bb051f8a6f1417" prot="public" virt="non-virtual"><scope>Pila</scope><name>Pila</name></member>
+      <member refid="classPila_1a10f5bb69338e4b4231e31eaff1e97562" prot="public" virt="non-virtual"><scope>Pila</scope><name>poner</name></member>
+      <member refid="classPila_1a7eb7aca18dffbc1d570195de1e446054" prot="public" virt="non-virtual"><scope>Pila</scope><name>quitar</name></member>
+      <member refid="classPila_1aa6ef037afb60c5791e2d851e8e67927e" prot="public" virt="non-virtual"><scope>Pila</scope><name>top</name></member>
+      <member refid="classPila_1a20477178a918c2da17c4eafbe225f7c5" prot="public" virt="non-virtual"><scope>Pila</scope><name>top</name></member>
+      <member refid="classPila_1a326618921557d69842196303b9832b61" prot="public" virt="non-virtual"><scope>Pila</scope><name>vacia</name></member>
+      <member refid="classPila_1a5bc38b4a06fdc0c1abc8736ebc5ba839" prot="public" virt="non-virtual"><scope>Pila</scope><name>~Pila</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

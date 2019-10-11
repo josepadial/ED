@@ -1,0 +1,146 @@
+.TH "Pila< T >" 3 "Miércoles, 24 de Octubre de 2018" "ClaseRacional" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Pila< T >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBPila\fP ()"
+.br
+.RI "Constructor por defecto\&. "
+.ti -1c
+.RI "\fBPila\fP (const \fBPila\fP< T > &original)"
+.br
+.RI "Constructor de copia\&. "
+.ti -1c
+.RI "\fB~Pila\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "\fBPila\fP & \fBoperator=\fP (const \fBPila\fP< T > &otra)"
+.br
+.RI "Operador de asignación\&. "
+.ti -1c
+.RI "bool \fBvacia\fP () const"
+.br
+.RI "Comprueba si la pila está vacía\&. "
+.ti -1c
+.RI "T & \fBtop\fP ()"
+.br
+.RI "Devuelve el elemento del tope de la pila\&. "
+.ti -1c
+.RI "const T & \fBtop\fP () const"
+.br
+.RI "Devuelve el elemento del tope de una pila constante\&. "
+.ti -1c
+.RI "void \fBponer\fP (const T &elemento)"
+.br
+.RI "Añade un elemento al final de la pila\&. "
+.ti -1c
+.RI "void \fBquitar\fP ()"
+.br
+.RI "Quita el elemento del tope de la pila\&. "
+.ti -1c
+.RI "void \fBlimpiar\fP ()"
+.br
+.RI "Quita todos los elementos de la pila\&. "
+.ti -1c
+.RI "int \fBnum_elementos\fP () const"
+.br
+.RI "Devuelve el número de elementos de la pila\&. "
+.in -1c
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "template<class T > \fBPila\fP< T >::\fBPila\fP (const \fBPila\fP< T > & original)"
+
+.PP
+Constructor de copia\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIoriginal\fP \fBPila\fP a copiar\&. 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "template<class T > int \fBPila\fP< T >::num_elementos () const"
+
+.PP
+Devuelve el número de elementos de la pila\&. 
+.PP
+\fBDevuelve:\fP
+.RS 4
+Entero con el número de elementos de la pila\&. 
+.RE
+.PP
+
+.SS "template<class T > \fBPila\fP< T > & \fBPila\fP< T >::operator= (const \fBPila\fP< T > & otra)"
+
+.PP
+Operador de asignación\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIotra\fP \fBPila\fP a asignar\&. 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+Referencia a la cola modificada\&. 
+.RE
+.PP
+
+.SS "template<class T > void \fBPila\fP< T >::poner (const T & elemento)"
+
+.PP
+Añade un elemento al final de la pila\&. 
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIelem\fP Elemento que se va a añadir\&. 
+.RE
+.PP
+
+.SS "template<class T > T & \fBPila\fP< T >::top ()"
+
+.PP
+Devuelve el elemento del tope de la pila\&. 
+.PP
+\fBDevuelve:\fP
+.RS 4
+Referencia al elemento del tope de la pila\&. 
+.RE
+.PP
+
+.SS "template<class T > const T & \fBPila\fP< T >::top () const"
+
+.PP
+Devuelve el elemento del tope de una pila constante\&. 
+.PP
+\fBDevuelve:\fP
+.RS 4
+Referencia constante al elemento del tope de la pila\&. 
+.RE
+.PP
+
+.SS "template<class T > bool \fBPila\fP< T >::vacia () const"
+
+.PP
+Comprueba si la pila está vacía\&. 
+.PP
+\fBDevuelve:\fP
+.RS 4
+Booleano indicador de si la pila está vacía\&. 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ClaseRacional del código fuente\&.
